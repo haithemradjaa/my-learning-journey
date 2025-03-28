@@ -4,7 +4,7 @@
 // const sub = (a, b) -> a - b;
 
 // to export these functions you need to tell that they are to be exported like this : 
-// module.exports = {add, sub} // add all the functions names to be    exported
+// module.exports = {add, sub} // add all the functions names to be exported
 
 // or you can do this without the last instruction 
 

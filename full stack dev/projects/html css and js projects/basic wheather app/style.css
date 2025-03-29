@@ -1,0 +1,12 @@
+/* Selects all elements on the page */
+* {
+    /* Removes default margin from all elements */
+    margin: 0;
+    /* Removes default padding from all elements */
+    padding: 0;
+    /* Makes sure padding and border are included in element width/height calculations, meaning the width and height of an element will be the size of the content plus the padding and border */
+    box-sizing: border-box;
+    /* Sets the font family for all text to Poppins with a fallback to any sans-serif font */
+    font-family: 'Poppins', sans-serif;
+}
+

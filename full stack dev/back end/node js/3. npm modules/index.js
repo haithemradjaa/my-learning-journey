@@ -63,6 +63,14 @@
 //__________________________________________________________________
 
 // a dev dependency is a dependency that's only used for development, not for production
+// Dev dependencies are packages used only during development, not in production
+// They help with tasks like:
+// - Testing (Jest, Mocha)
+// - Code formatting (Prettier, ESLint)
+// - Development servers (nodemon)
+// - Build tools (webpack, babel)
+// - Documentation generators
+// They make development easier but aren't needed to run the actual application
 // for example, we can install nodemon as a dev dependency
 // npm install nodemon --save-dev or npm i nodemon -D
 // you can see the changes in the package.json file
@@ -70,3 +78,4 @@
 //__________________________________________________________________
 
 // 00.57.12
+
